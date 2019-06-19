@@ -22,6 +22,7 @@ namespace AcademySystem.Controllers
         // GET: Professor
         public async Task<IActionResult> Index()
         {
+            
             return View(await _context.professor.ToListAsync());
         }
 
