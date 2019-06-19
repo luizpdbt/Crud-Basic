@@ -10,9 +10,28 @@ namespace Tests
         }
 
         [Test]
-        public void Test1()
+        public void Inserir()
         {
 
+            Assert.Pass();
+        }
+
+        [Test]
+        public void Alterar()
+        {
+            Assert.Pass();
+        }
+
+        [Test]
+        public void Listar()
+        {
+            Assert.Pass();
+        }
+
+
+        [Test]
+        public void Excluir()
+        {
             Assert.Pass();
         }
     }
